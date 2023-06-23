@@ -42,6 +42,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.device.rc
 
+# FUSE passthrough
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.fuse.passthrough.enable=true
+
 # Kernel
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)-kernel/kernel
 
