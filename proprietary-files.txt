@@ -216,6 +216,7 @@ vendor/lib64/libwa_refocus.so|6030a888e1ced25463c7807a27c3c283a2ad75e8
 vendor/lib64/libwa_rtdof.so|6fffa3b062f12ad283cd7052bce6f396e66f811c
 vendor/lib64/libxmi_hdr_checker.so|42236d6de2e193170619c26b40dbb8a1e23f92c9
 vendor/lib64/libxmi_high_dynamic_range.so|6f1748496ee0ad12629f3188fbf2f536cec1a536
+vendor/lib64/libxml2_vendor.so|336de129dd9072f31d8aaee3286e5f10c1bf32fe
 
 # Camera Arcsoft - from FOG MIUI
 vendor/lib64/libarcsoft_beautyshot.so|6cf07f8c5698e374414a5972d6e72c079bcae9a2
@@ -316,6 +317,9 @@ vendor/etc/camera/morpho_lowlight_2.0_truly_sc500cs_front_iii_global.xml|6b163ed
 vendor/etc/camera/morpho_lowlight_2.0_truly_sc500cs_front_iii_india.xml|187eff91126e780db8023be0641a8e92381ea147
 
 # Camera Device - from FOG MIUI
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so|1f7f3d82623c638a3144ddffa209d53f86768b6c
+vendor/lib/vendor.qti.hardware.camera.device@3.5.so|de60d040fb0aaea67f23cc80de81e2b04e2d3064
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|7539c1b3b28964214362668af11b69b0b19632f6
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|a2b4a0439876fbe6733f99844e22228315a66ba6
 
 # Camera Feature - from FOG MIUI
@@ -338,6 +342,10 @@ vendor/lib64/com.qti.feature2.swmf.so|f64ffb3829ccc4506586fc8d0626c019afd6f950
 
 # Camera Postprocessing - from FOG MIUI
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|4050be9ba7c61f20bc97b4a62dd969b246e93bdb
+
+# Camera provider - from FOG MIUI
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so|831d13da063a5265c4dbba852ea479165732b38e
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|87b2807b4db92737ac0fab9af3df58bfb5d82465
 
 # Camera Sensor - from FOG MIUI
 vendor/lib/libmmcamera_cac3.so|3b7ba0b74ba3b87b637592f2a566e6c93a056519
